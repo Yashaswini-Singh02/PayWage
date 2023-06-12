@@ -24,7 +24,7 @@ function App() {
   };
 
   return (
-    <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple via-purple-900 to-black">
+    <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-sky-400 to-sky-200">
       <Routes>
         <Route
           path="/"

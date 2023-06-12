@@ -39,7 +39,7 @@ const Navbar = (props) => {
                 <ul class="flex flex-col  mt-4 border gap-7 rounded-lg  md:flex-row  md:text-sm md:font-medium md:border-0 ">
                   <li>
                     <div class="relative inline-block text-left">
-                      <div className="flex w-full  justify-around gap-x-1.5 rounded-lg px-10 py-2 text-base font-semibold text-white ring-2 ring-inset ring-fuchsia-600">
+                      <div className="flex w-full  justify-around gap-x-1.5 rounded-lg px-10 py-2 text-base font-semibold text-white ring-2 ring-inset ring-indigo-900">
                         <button label="Login" onClick={connectWallet}>
                           {walletAddress}
                         </button>
@@ -52,7 +52,7 @@ const Navbar = (props) => {
               <ul class="flex flex-col  mt-4 border gap-7 rounded-lg  md:flex-row  md:text-sm md:font-medium md:border-0 pb-8">
                 <li>
                   <div class="relative inline-block text-left">
-                    <div className="flex w-full  justify-around gap-x-1.5 rounded-lg px-10 py-2 text-base font-semibold text-white ring-2 ring-inset ring-fuchsia-600">
+                    <div className="flex w-full  justify-around gap-x-1.5 rounded-lg px-10 py-2 text-base font-semibold text-dark-blue ring-2 ring-inset ring-white">
                       <button label="Login" onClick={connectWallet}>
                         Login
                       </button>
@@ -61,7 +61,7 @@ const Navbar = (props) => {
                 </li>
                 <li>
                   <div class="relative inline-block text-left">
-                    <div className="flex w-full  justify-around gap-x-1.5 rounded-lg px-10 py-2 text-base font-semibold text-white ring-2 ring-inset ring-fuchsia-600">
+                    <div className="flex w-full  justify-around gap-x-1.5 rounded-lg px-10 py-2 text-base font-semibold text-dark-blue ring-2 ring-inset ring-white">
                       <button label="Sign up">
                         <Link to="SigninOrg">Sign Up</Link>
                       </button>
