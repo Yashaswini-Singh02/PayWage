@@ -24,7 +24,7 @@ const Dashboard = () => {
                 alt="Flowbite Logo"
               />
               <span class="self-center text-xl  text-white font-semibold whitespace-nowrap ">
-                PaySal
+                BizChain
               </span>
             </a>
           </div>

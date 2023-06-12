@@ -53,20 +53,20 @@ const SigninOrg = (props) => {
                 class="h-6 mr-3 sm:h-9"
                 alt="Flowbite Logo"
               />
-              <span class="self-center text-xl  text-white font-semibold whitespace-nowrap ">
-                PaySal
+              <span class="self-center text-xl  text-black font-semibold whitespace-nowrap ">
+                BizChain
               </span>
             </a>
           </div>
         </nav>
       </div>
       <div class=" w-full m-auto  max-w-2xl drop-shadow-2xl">
-        <div class=" flex flex-col gap-4 border-fuchsia-600 border-2 justify-center item-center text-white  rounded px-10 pt-4 pb-10 ">
-          <h1 className="block text-white text-2xl font-bold mb-2">
+        <div class=" flex flex-col gap-4 border-white border-2 justify-center item-center text-black  rounded px-10 pt-4 pb-10 ">
+          <h1 className="block text-black text-2xl font-bold mb-2">
             Register your organisation
           </h1>
           <div class="mb-4">
-            <label class="block text-white text-sm font-bold mb-2" for="Name">
+            <label class="block text-black text-sm font-bold mb-2" for="Name">
               Name
             </label>
             <input
@@ -81,7 +81,7 @@ const SigninOrg = (props) => {
           </div>
           <div class="mb-4">
             <label
-              class="block text-white text-sm font-bold mb-2"
+              class="block text-black text-sm font-bold mb-2"
               for="industry"
             >
               Industry
@@ -94,7 +94,7 @@ const SigninOrg = (props) => {
             ></input>
           </div>
           <div class="mb-4">
-            <label class="block text-white text-sm font-bold mb-2" for="e-mail">
+            <label class="block text-black text-sm font-bold mb-2" for="e-mail">
               Email Address
             </label>
             <input
@@ -107,7 +107,7 @@ const SigninOrg = (props) => {
 
           <div class="mb-6">
             <label
-              class="block text-white text-sm font-bold mb-2"
+              class="block text-black text-sm font-bold mb-2"
               for="Wallet-Address"
             >
               Wallet Address

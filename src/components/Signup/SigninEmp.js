@@ -52,7 +52,6 @@ const SigninEmp = (props) => {
     document.getElementById("Email").value = "";
     document.getElementById("walletAddress").value = "";
   };
-  
 
   useEffect(() => {
     connectWallet();
@@ -69,17 +68,17 @@ const SigninEmp = (props) => {
                 class="h-6 mr-3 sm:h-9"
                 alt="Flowbite Logo"
               />
-              <span class="self-center text-xl  text-white font-semibold whitespace-nowrap ">
-                PaySal
+              <span class="self-center text-xl  text-black font-semibold whitespace-nowrap ">
+                BizChain
               </span>
             </a>
           </div>
         </nav>
       </div>
       <div class="  m-auto  max-w-2xl drop-shadow-2xl">
-        <form class=" flex flex-col gap-4 border-fuchsia-600 border-2 justify-center item-center text-white  rounded px-10 py-12 pb-10 ">
+        <form class=" flex flex-col gap-4 border-white border-2 justify-center item-center text-black  rounded px-10 py-12 pb-10 ">
           <div class="mb-4">
-            <label class="block text-white text-sm font-bold mb-2" for="Name">
+            <label class="block text-black text-sm font-bold mb-2" for="Name">
               Name
             </label>
             <input
@@ -91,7 +90,7 @@ const SigninEmp = (props) => {
           </div>
           <div class="mb-4">
             <label
-              class="block text-white text-sm font-bold mb-2"
+              class="block text-black text-sm font-bold mb-2"
               for="Department"
             >
               Department
@@ -104,7 +103,7 @@ const SigninEmp = (props) => {
             ></input>
           </div>
           <div class="mb-4">
-            <label class="block text-white text-sm font-bold mb-2" for="Email">
+            <label class="block text-black text-sm font-bold mb-2" for="Email">
               Email Address
             </label>
             <input
@@ -117,7 +116,7 @@ const SigninEmp = (props) => {
 
           <div class="mb-4">
             <label
-              class="block text-white text-sm font-bold mb-2"
+              class="block text-black text-sm font-bold mb-2"
               for="walletAddress"
             >
               Employee Wallet Address
@@ -132,14 +131,14 @@ const SigninEmp = (props) => {
 
           <div class="mb-4">
             <label
-              class="block text-white text-sm font-bold mb-2"
+              class="block text-black text-sm font-bold mb-2"
               for="Organization-Id"
+              value="0xAcEf0600cF20d5236111cCeE4Ce54013C9123e62"
             >
               Organization Wallet Address:
             </label>
             {orgWalletAddress}
           </div>
-
           <div class="flex space-x-2 items-center justify-between">
             <button
               class="bg-white w-48 hover:bg-fuchsia-100 text-black text-md font-bold py-2  rounded focus:outline-none focus:shadow-outline"

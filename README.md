@@ -1,10 +1,10 @@
 
 <br>
 <p align="center">
-<b>PaySal
+<b>BizChain
 <br></b>
 </p>
-<blockquote align="center">built on <span style="color: #8b0000;">☕</span> at <a href="https://ethforall.devfolio.co/">Web3 Init</a>.</blockquote>
+<blockquote align="center">built on <span style="color: #8b0000;">☕</span> at <a href="https://ethforall.devfolio.co/">Adventum</a>.</blockquote>
 
 # 💡 **What we solve**
 
@@ -15,7 +15,7 @@ Also, the user need not be able to know how wallets like metamask work and be co
 # Features
 - Organisations can manage their employees, their professional and payroll details.
 - Organisation can pay their employees with just one click after connecting the hardware key.
-- People who own multiple organisations can manage them all from one place.
+- Meeting handling and calendar settings for organisations and employees
 
 # 🧠 Knowledge Primer
 
@@ -33,17 +33,17 @@ Also, the user need not be able to know how wallets like metamask work and be co
 
 # ⏭️ What's next
 
-- Add zkRollup: Using zkRollup we can reduce the gas fees and make the transactions faster.
-- Add task management: Organisations can manage the task status of their employees.
-- Metaverse meetings: Add a metaverse meeting feature to the application.
+- AUsing zk Snarks to make our platform better and secure
+- Add on chain proofs for the users and companies
+- Add a metaverse meeting feature to the application
 
 #   Challenges we ran into
 
 - Banana wallet SDK was new to us and we had some time figuring it out.
 - Adding multiple organization support was a bit of a hassle.
-- Since we had exams in between, time constraint was also there.
+- Time constraint was also there.
 
 # 🤝 Contributors
-<a href="https://github.com/karanpargal/paysal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=karanpargal/paysal" />
+<a href="https://github.com/Yashaswini-Singh02/PayWage/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Yashaswini-Singh02/PayWage" />
 </a>

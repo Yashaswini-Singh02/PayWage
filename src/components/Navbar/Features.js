@@ -17,15 +17,15 @@ const Features = () => {
     },
     {
       
-      Heading: "Multiple Organisation",
+      Heading: "Schedule settings",
       Description:
-        "People who own multiple organisations can manage them all from one place",
+        "Meeting handling and calendar settings for organisations and employees",
     },
   ];
 
   return (
     <div className="mt-10 font-poppins" id="features">
-      <p className=" text-4xl text-[white] font-bold ml-48 mb-12">
+      <p className=" text-4xl text-black font-bold ml-48 mb-12">
         Features{" "}
       </p>
       <div className="flex flex-row justify-center gap-10 p-20">

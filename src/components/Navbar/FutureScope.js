@@ -7,13 +7,13 @@ const FutureScope = () => {
          
           Heading: "Add zkRollup",
           Description:
-            "Using zkRollup we can reduce the gas fees and make the transactions faster",
+            "Using zk Snarks to make our platform better and secure",
         },
         {
          
-          Heading: "Add task management",
+          Heading: "Add on chain proofs",
           Description:
-            "Organisations can manage the task status of their employees",
+            "Add on chain proofs for the users and companies",
         },
         {
          
@@ -25,7 +25,7 @@ const FutureScope = () => {
     
       return (
         <div className="mt-10 font-poppins" id="features">
-          <p className=" text-4xl text-[white] font-bold ml-48 mb-12">
+          <p className=" text-4xl text-[black] font-bold ml-48 mb-12">
             Future Scope{" "}
           </p>
           <div className="flex flex-row justify-center gap-10 p-20">

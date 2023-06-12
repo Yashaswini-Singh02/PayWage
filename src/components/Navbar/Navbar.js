@@ -29,7 +29,7 @@ const Navbar = (props) => {
           <a href="" class="flex items-center">
             <img
               src={logo}
-              class="h-24  "
+              class="h-24 rounded-lg"
               alt="Flowbite Logo"
             />
           </a>

@@ -15,11 +15,11 @@ const Landing = (props) => {
       <Navbar bananaSdkInstance={props.bananaSdkInstance} />
       <div className="flex flex-row mt-20">
         <div className="mt-10 w-2/3 text-left leading-loose text-dark-blue text-3xl p-20 font-bold pl-28">
-          <p>Streamline payroll, strengthen security </p>
-          <p className="text-xl font-medium"> The blockchain-powered solution for multi-organization salary distribution </p>
+          <p>Your company on chain now</p>
+          <p className="text-xl font-medium"> The blockchain-powered solution for company management and workspace handling </p>
           <p></p>
 
-          <button class=" mt-16  font-normal border-white border-2 text-dark-blue rounded-lg px-10 py-2 text-lg font-semibold ">
+          <button class=" mt-12  font-normal border-white border-2 text-dark-blue rounded-lg px-10 py-2 text-lg font-semibold ">
             <Link to="Dashboard">Dashboard</Link>
           </button>
         </div>

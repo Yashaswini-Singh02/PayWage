@@ -27,8 +27,8 @@ const Employess = (props) => {
                 class="h-6 mr-3 sm:h-9"
                 alt="Flowbite Logo"
               />
-              <span class="self-center text-xl  text-white font-semibold whitespace-nowrap ">
-                PaySal
+              <span class="self-center text-xl  text-black font-semibold whitespace-nowrap ">
+                BizChain
               </span>
             </a>
           </div>
@@ -45,11 +45,11 @@ const Employess = (props) => {
               <li>
                 <a
                   href="dashboard"
-                  class="flex items-center p-2 text-white rounded-lg "
+                  class="flex items-center p-2 text-black rounded-lg "
                 >
                   <svg
                     aria-hidden="true"
-                    class="w-6 h-6 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                    class="w-6 h-6 text-black transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-black"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -64,11 +64,11 @@ const Employess = (props) => {
               <li className="bg-white rounded-lg">
                 <a
                   href="Employees"
-                  class="flex items-center p-2 text-black rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+                  class="flex items-center p-2 text-black rounded-lg dark:text-black hover:bg-gray-100 dark:hover:bg-gray-700"
                 >
                   <svg
                     aria-hidden="true"
-                    class="flex-shrink-0 w-6 h-6 text-black transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                    class="flex-shrink-0 w-6 h-6 text-black transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-black"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -85,12 +85,12 @@ const Employess = (props) => {
             </ul>
           </div>
         </aside>
-        <div className="text-white ml-10 w-[100%]">
+        <div className="text-black ml-10 w-[100%]">
           <div className="flex justify-between place-items-center place-self-center place-content-center">
             <div className="text-3xl font-bold mb-8 pt-12">
               Your Employees
             </div>
-            <a href="SigninEmp" className="mr-12 p-4 border-2 border-fuchsia-600 font-medium rounded-lg">
+            <a href="SigninEmp" className="mr-12 p-4 border-2 border-white font-medium rounded-lg">
               Add Employee
             </a>
           </div>
@@ -105,7 +105,7 @@ const Employess = (props) => {
         </div>
       </div>
       <p class="text-center mt-10 pb-10 text-gray-500 text-xs">
-        &copy;2023 PaySal Corp. All rights reserved.
+        &copy;2023 BizChain Corp. All rights reserved.
       </p>
     </div>
   );
